@@ -1,0 +1,24 @@
+#drop_box{
+	background: #0bb;
+	height: 100%;
+	position: relative;
+}
+
+#status{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#status p{
+	color: white;
+	font-size: 36;
+	text-align: center;
+	user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+}
